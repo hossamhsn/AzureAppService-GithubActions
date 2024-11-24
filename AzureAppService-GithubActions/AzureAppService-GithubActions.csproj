@@ -5,6 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>AzureAppService_GithubActions</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/f26515d9-3bc6-4a50-8192-cb816a833f54/resourceGroups/learn-14262ffc-b28f-4f93-a548-e2b3116959b1/providers/microsoft.insights/components/AzureAppService-GithubActions</ApplicationInsightsResourceId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
